@@ -1,4 +1,5 @@
 ﻿using XiaoYiSharp;
+using XiaoYiSharp.Services;
 
 namespace XiaoYiSharp_BlazorApp.Services
 {
