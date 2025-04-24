@@ -1,4 +1,4 @@
-﻿namespace XiaoYiSharp_MauiBlazorApp.Services
+﻿namespace XiaoYiSharp.Services
 {
     public interface IAudioService
     {

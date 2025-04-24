@@ -2,6 +2,7 @@
 using PortAudioSharp;
 using System.Collections.Concurrent;
 using System.Runtime.InteropServices;
+using XiaoYiSharp.Services;
 using XiaoYiSharp.Utils;
 using static PortAudioSharp.Stream;
 

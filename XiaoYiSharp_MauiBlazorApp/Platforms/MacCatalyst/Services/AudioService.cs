@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using XiaoYiSharp.Services;
 
 namespace XiaoYiSharp_MauiBlazorApp.Services
 {

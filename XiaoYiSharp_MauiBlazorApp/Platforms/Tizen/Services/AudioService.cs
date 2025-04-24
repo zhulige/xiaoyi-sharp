@@ -4,6 +4,7 @@ using AndroidX.Core.App;
 using AndroidX.Core.Content;
 using Android.App;
 using System.Threading.Tasks;
+using XiaoYiSharp.Services;
 
 namespace XiaoYiSharp_MauiBlazorApp.Services
 {
