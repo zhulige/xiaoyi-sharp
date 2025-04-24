@@ -1,0 +1,60 @@
+﻿@page "/RobotFace"
+@implements IDisposable
+@inject XiaoYi_AgentService XiaoYiAgent
+@inject IJSRuntime JsRuntime
+
+<link rel="stylesheet" href="robotface/style.css">
+<div class="buttons">
+    <button onclick="eyes.startBlinking()">Start Blinking</button>
+    <button onclick="eyes.stopBlinking()">Stop Blinking</button>
+    <button onclick="eyes.blink()">Blink</button>
+    <button onclick="eyes.express({type: 'happy'})">Happy</button>
+    <button onclick="eyes.express({type: 'sad'})">Sad</button>
+    <button onclick="eyes.express({type: 'angry'})">Mad</button>
+    <button onclick="eyes.express({type: 'focused'})">Focused</button>
+    <button onclick="eyes.express({type: 'confused'})">Confused</button>
+
+</div>
+<div class="face">
+    <div class="eye left">
+        <div class="eyelid upper"></div>
+        <div class="eyelid lower"></div>
+    </div>
+    <div class="eye right">
+        <div class="eyelid upper"></div>
+        <div class="eyelid lower"></div>
+    </div>
+</div>
+
+<script src="robotface/index.js"></script>
+
+
+@code{
+    private System.Timers.Timer _timer = new System.Timers.Timer(1000) { Enabled = true };
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _timer.Elapsed += Timer_Elapsed;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            
+        }
+    }
+
+    private async void Timer_Elapsed(object sender, EventArgs args)
+    {
+        await Task.Factory.StartNew(() =>
+        {
+            InvokeAsync(() => { StateHasChanged(); return Task.CompletedTask; });
+        });
+    }
+
+    void IDisposable.Dispose()
+    {
+        _timer.Close();
+    }
+}

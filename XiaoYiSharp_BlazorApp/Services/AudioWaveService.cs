@@ -6,6 +6,7 @@ using System.IO;
 using System.Reflection.PortableExecutable;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using XiaoYiSharp.Services;
 using XiaoYiSharp.Utils;
 
 namespace XiaoYiSharp_BlazorApp.Services
