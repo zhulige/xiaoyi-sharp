@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\GITHUB\NBeeNET\xiaoyi-sharp-server-coze\XiaoYiSharp_BlazorApp\bin\Release\net8.0\publish\linux-arm64</_PublishTargetUrl>
+    <History>True|2025-04-16T14:22:39.7843414Z||;True|2025-04-14T09:44:31.6354937+08:00||;True|2025-04-14T09:42:40.3618148+08:00||;True|2025-04-14T09:41:25.5769230+08:00||;True|2025-04-14T09:40:44.3928665+08:00||;True|2025-04-14T09:35:31.9002826+08:00||;True|2025-04-14T09:34:58.0708752+08:00||;True|2025-04-14T09:24:18.9593913+08:00||;True|2025-04-14T09:23:28.7657200+08:00||;True|2025-04-14T09:16:50.6905958+08:00||;True|2025-04-14T09:16:19.0854007+08:00||;True|2025-04-14T09:15:30.9080083+08:00||;True|2025-04-13T21:43:58.0797642+08:00||;True|2025-04-13T21:39:03.3759369+08:00||;True|2025-04-13T21:35:38.9243718+08:00||;True|2025-04-13T21:33:45.2481566+08:00||;True|2025-04-13T21:28:10.4275004+08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

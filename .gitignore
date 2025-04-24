@@ -1,0 +1,13 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/XiaoYiSharp/bin
+/XiaoYiSharp/obj
+/XiaoYiSharp_BlazorApp/bin
+/XiaoYiSharp_BlazorApp/obj
+/XiaoYiSharp_ConsoleApp/bin/Release/net8.0
+/XiaoYiSharp_ConsoleApp/obj
+/XiaoYiSharp_MauiBlazorApp/bin
+/XiaoYiSharp_MauiBlazorApp/obj
