@@ -23,7 +23,7 @@
 当前项目兼容小智ESP32。
 
 **跨平台支持**：本项目支持以下平台：
-- **操作系统**：Windows、macOS、Linux、Android
+- **操作系统**：Windows、MacOS、Linux、Android
 - **硬件平台**：x86、x86_64、arm、arm_64
 - **开发板**：ASUS Tinker Board2s、Raspberry Pi
 
