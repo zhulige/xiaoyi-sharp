@@ -56,8 +56,25 @@ _xiaoyiAgent.IotThings = "";
 _xiaoyiAgent.Start();
 ```
 
+### Android
+<div style="text-align: center;">
+    <img src="doc/android.jpg" height="300" />
+</div>
+
 ## 计划项目
 <img src="doc/ErgoJr_assembly.gif" width="480" />
 
 ## 相关资源
 https://opus-codec.org/downloads/
+
+## 贡献与反馈
+
+如果你在使用过程中发现了项目中的问题，或者有任何改进的建议，欢迎随时提交 Issue 或者 Pull Request。你的反馈和贡献将对项目的发展和完善起到重要的作用。
+
+### 加入社群
+
+欢迎加入我们的社区，分享经验、提出建议或获取帮助！
+
+<div style="text-align: center;">
+    <img src="doc/wxq51.jpg" height="300" />
+</div>
