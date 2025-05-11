@@ -11,7 +11,7 @@ namespace XiaoYiSharp.Services
 {
     public class XiaoYi_OTAService
     {
-        public string OTA_VERSION_URL { get; set; } = "https://api.tenclass.net/xiaozhi/ota/";
+        public string OTA_VERSION_URL { get; set; } = "http://coze.nbee.net/xiaozhi/ota"; //"https://api.tenclass.net/xiaozhi/ota/";
         public dynamic? OTA_INFO { get; set; }
         public string DeviceId { get; set; } = Utils.SystemInfo.GetMacAddress();
 
@@ -85,7 +85,7 @@ namespace XiaoYiSharp.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"获取OTA版本信息时发生异常: {ex.Message}");
+                Console.WriteLine($"获取OTA版本信息时发生异常: {ex.Message}，确保 {OTA_VERSION_URL} 内设备管理中你的MAC地址配置正确：{DeviceId}");
             }
         }
     }
