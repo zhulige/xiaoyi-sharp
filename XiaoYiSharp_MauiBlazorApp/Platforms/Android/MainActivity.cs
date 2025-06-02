@@ -5,6 +5,7 @@ using Android.Net.Wifi;
 using Android.OS;
 using System.Net.NetworkInformation;
 using System.Text;
+using XiaoYiSharp_MauiBlazorApp.Platforms.Android.ForegroundServices;
 
 namespace XiaoYiSharp_MauiBlazorApp
 {
@@ -16,6 +17,21 @@ namespace XiaoYiSharp_MauiBlazorApp
             var androidId = Android.Provider.Settings.Secure.GetString(ContentResolver, Android.Provider.Settings.Secure.AndroidId);
             var formattedAndroidId = FormatAndroidIdToMacFormat(androidId);
             Global.DeivceId = formattedAndroidId;
+
+            // 启动服务
+            var intent = new Intent(this, typeof(MyForegroundService));
+            //if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.O)
+            //{
+            StartForegroundService(intent);
+            //}
+            //else
+            //{
+            //    StartService(intent);
+            //}
+
+
+            // 停止服务
+            //StopService(new Intent(this, typeof(MyForegroundService)));
 
             base.OnCreate(savedInstanceState);
         }

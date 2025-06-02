@@ -23,7 +23,7 @@ namespace XiaoYiSharp.Services
         public delegate Task IotThingsEventHandler(string commands);
         public event IotThingsEventHandler? OnIotThingsEvent = null;
 
-        public string WebSocketUrl { get; set; } = "ws://coze.nbee.net/xiaozhi/v1";//"wss://api.tenclass.net/xiaozhi/v1/"; //"ws://192.168.31.113:8888/xiaozhi/v1/";//
+        public string WebSocketUrl { get; set; } = "ws://coze.nbee.net/xiaoyi/v1";//"wss://api.tenclass.net/xiaozhi/v1/"; //"ws://192.168.31.113:8888/xiaozhi/v1/";//
         public string WebSocketToken { get; set; } = "test-token";
         public string DeviceId { get; set; } = Utils.SystemInfo.GetMacAddress();
         public string? IotThings { get; set; }

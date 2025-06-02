@@ -11,7 +11,7 @@ namespace XiaoYiSharp.Services
 {
     public class XiaoYi_OTAService
     {
-        public string OTA_VERSION_URL { get; set; } = "http://coze.nbee.net/xiaozhi/ota"; //"https://api.tenclass.net/xiaozhi/ota/";
+        public string OTA_VERSION_URL { get; set; } = "http://coze.nbee.net/xiaoyi/ota"; //"https://api.tenclass.net/xiaozhi/ota/";
         public dynamic? OTA_INFO { get; set; }
         public string DeviceId { get; set; } = Utils.SystemInfo.GetMacAddress();
 

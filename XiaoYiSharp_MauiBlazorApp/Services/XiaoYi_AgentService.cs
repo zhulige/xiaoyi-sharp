@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using XiaoYiSharp;
+using XiaoYiSharp.Services;
 
 namespace XiaoYiSharp_MauiBlazorApp.Services
 {
